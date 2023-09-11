@@ -1,0 +1,22 @@
+﻿<AML>
+  <Item type="Property" id="2A246F6B56044176BA81B2877196A6D8" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source type="ItemType" name="hl_Dashboard">291CAEFE2D9E4C1B85D610EFBF54C83D</data_source>
+    <data_type>item</data_type>
+    <is_federated>0</is_federated>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="zc">默认看板</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4864</sort_order>
+    <source_id type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+    <track_history>0</track_history>
+    <name>hl_default_dashboard</name>
+  </Item>
+</AML>

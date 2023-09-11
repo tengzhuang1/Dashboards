@@ -1,0 +1,39 @@
+﻿<AML>
+  <Item type="RelationshipType" id="BF800354B3EE4FFCA5462D09AD0D1111" action="add">
+    <auto_search>1</auto_search>
+    <behavior>float</behavior>
+    <copy_permissions>0</copy_permissions>
+    <create_related>0</create_related>
+    <hide_in_all>0</hide_in_all>
+    <inc_rel_key_name>1</inc_rel_key_name>
+    <inc_related_key_name>1</inc_related_key_name>
+    <is_list_type>0</is_list_type>
+    <label xml:lang="zc">成员</label>
+    <new_show_related>0</new_show_related>
+    <related_id type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</related_id>
+    <related_notnull>0</related_notnull>
+    <related_option>2</related_option>
+    <relationship_id type="ItemType" name="hl_Dashboard_Member">
+      <Item type="ItemType" id="EBE4036AAE054D0B8B4476D4FF6BD733" action="add">
+        <allow_private_permission>1</allow_private_permission>
+        <auto_search>0</auto_search>
+        <enforce_discovery>0</enforce_discovery>
+        <hide_where_used>0</hide_where_used>
+        <implementation_type>table</implementation_type>
+        <instance_data>HL_DASHBOARD_MEMBER</instance_data>
+        <is_dependent>0</is_dependent>
+        <is_relationship>1</is_relationship>
+        <is_versionable>0</is_versionable>
+        <revisions type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+        <show_parameters_tab>1</show_parameters_tab>
+        <structure_view>tabs off</structure_view>
+        <unlock_on_logout>0</unlock_on_logout>
+        <use_src_access>1</use_src_access>
+        <name>hl_Dashboard_Member</name>
+      </Item>
+    </relationship_id>
+    <sort_order>256</sort_order>
+    <source_id type="ItemType" name="hl_Dashboard">291CAEFE2D9E4C1B85D610EFBF54C83D</source_id>
+    <name>hl_Dashboard_Member</name>
+  </Item>
+</AML>

@@ -1,0 +1,7 @@
+﻿<AML>
+ <Item type="CommandBarMenu" id="C016FEFA14424AAFB137437EF4A73586" action="add">
+  <label xml:lang="zc">看板配置</label>
+  <parent_menu keyed_name="com.aras.innovator.cui_default.toc_Configuration" type="CommandBarMenu">C599EA936834459F83CC0D3B09BF5856</parent_menu>
+  <name>com.aras.innovator.cui_default.toc_C016FEFA14424AAFB137437EF4A73586</name>
+ </Item>
+</AML>

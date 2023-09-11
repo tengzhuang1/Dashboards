@@ -1,0 +1,236 @@
+﻿<AML>
+  <Item type="Form" id="B169305AD3BA481C955024F64812269D" action="add">
+    <height>234</height>
+    <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+    <width>699</width>
+    <name>hl_Dashboard_Widget_Type</name>
+    <Relationships>
+      <Item type="Body" id="37673325E3A541B9B771ACF934D5FA50" action="add">
+        <bg_color>#FFFFFF</bg_color>
+        <sort_order>128</sort_order>
+        <Relationships>
+          <Item type="Field" id="E128E3F888A04ECCB6518991F9DF9681" action="add">
+            <border_width>0</border_width>
+            <display_length>44</display_length>
+            <display_length_unit>px</display_length_unit>
+            <field_type>text</field_type>
+            <font_color>#333333</font_color>
+            <font_family>arial, helvetica, sans-serif</font_family>
+            <font_size>8pt</font_size>
+            <font_weight>bold</font_weight>
+            <is_disabled>0</is_disabled>
+            <is_visible>1</is_visible>
+            <label xml:lang="zc">默认高度</label>
+            <label_position>top</label_position>
+            <list_no_blank>0</list_no_blank>
+            <propertytype_id type="Property">EA4DD3295EBF4A83AC0E37F6C8357DC8</propertytype_id>
+            <sort_order>1152</sort_order>
+            <tab_index>4096</tab_index>
+            <tab_stop>1</tab_stop>
+            <x>10</x>
+            <y>365</y>
+            <name>hl_default_height</name>
+          </Item>
+          <Item type="Field" id="B71B704E9B8242F8AED8C9B7862F8DBC" action="add">
+            <border_width>0</border_width>
+            <display_length>44</display_length>
+            <display_length_unit>px</display_length_unit>
+            <field_type>text</field_type>
+            <font_color>#333333</font_color>
+            <font_family>arial, helvetica, sans-serif</font_family>
+            <font_size>8pt</font_size>
+            <font_weight>bold</font_weight>
+            <is_disabled>0</is_disabled>
+            <is_visible>1</is_visible>
+            <label xml:lang="zc">默认宽度</label>
+            <label_position>top</label_position>
+            <list_no_blank>0</list_no_blank>
+            <propertytype_id type="Property">EB31213F54FC492A82C7C9E5860216DE</propertytype_id>
+            <sort_order>1024</sort_order>
+            <tab_index>3968</tab_index>
+            <tab_stop>1</tab_stop>
+            <x>10</x>
+            <y>325</y>
+            <name>hl_default_width</name>
+          </Item>
+          <Item type="Field" id="9F4DB5C6659440368AEF7EAF0298BAEF" action="add">
+            <border_width>0</border_width>
+            <display_length_unit>px</display_length_unit>
+            <field_type>textarea</field_type>
+            <font_color>#333333</font_color>
+            <font_family>arial, helvetica, sans-serif</font_family>
+            <font_size>8pt</font_size>
+            <font_weight>bold</font_weight>
+            <is_disabled>0</is_disabled>
+            <is_visible>1</is_visible>
+            <label xml:lang="zc">描述</label>
+            <label_position>top</label_position>
+            <list_no_blank>0</list_no_blank>
+            <propertytype_id type="Property">05E7C46713BE48D6B99AFB52462FDC03</propertytype_id>
+            <sort_order>1280</sort_order>
+            <tab_index>4224</tab_index>
+            <tab_stop>1</tab_stop>
+            <textarea_cols>350</textarea_cols>
+            <textarea_rows>50</textarea_rows>
+            <x>10</x>
+            <y>405</y>
+            <name>hl_description</name>
+          </Item>
+          <Item type="Field" id="0B96C039E22647B182E9B5C88F841471" action="add">
+            <border_width>0</border_width>
+            <display_length_unit>px</display_length_unit>
+            <field_type>image</field_type>
+            <font_color>#333333</font_color>
+            <font_family>arial, helvetica, sans-serif</font_family>
+            <font_size>8pt</font_size>
+            <font_weight>bold</font_weight>
+            <is_disabled>0</is_disabled>
+            <is_visible>1</is_visible>
+            <label xml:lang="zc">图标</label>
+            <label_position>top</label_position>
+            <list_no_blank>0</list_no_blank>
+            <propertytype_id type="Property">D7C1F87C3D894A9DA99ED74DB8366251</propertytype_id>
+            <sort_order>640</sort_order>
+            <tab_index>3584</tab_index>
+            <tab_stop>1</tab_stop>
+            <x>10</x>
+            <y>205</y>
+            <name>hl_icon</name>
+          </Item>
+          <Item type="Field" id="B2E0540747F14435B179BCFDC84CB0DD" action="add">
+            <border_width>0</border_width>
+            <display_length>44</display_length>
+            <display_length_unit>px</display_length_unit>
+            <field_type>text</field_type>
+            <font_color>#333333</font_color>
+            <font_family>arial, helvetica, sans-serif</font_family>
+            <font_size>8pt</font_size>
+            <font_weight>bold</font_weight>
+            <is_disabled>0</is_disabled>
+            <is_visible>1</is_visible>
+            <label xml:lang="zc">最小高度</label>
+            <label_position>top</label_position>
+            <list_no_blank>0</list_no_blank>
+            <propertytype_id type="Property">17A6DBDF2EB3492880C4A5AA29544E2D</propertytype_id>
+            <sort_order>896</sort_order>
+            <tab_index>3840</tab_index>
+            <tab_stop>1</tab_stop>
+            <x>10</x>
+            <y>285</y>
+            <name>hl_min_height</name>
+          </Item>
+          <Item type="Field" id="B1382C20896B44BFA75B480936BEFDC1" action="add">
+            <border_width>0</border_width>
+            <display_length>44</display_length>
+            <display_length_unit>px</display_length_unit>
+            <field_type>text</field_type>
+            <font_color>#333333</font_color>
+            <font_family>arial, helvetica, sans-serif</font_family>
+            <font_size>8pt</font_size>
+            <font_weight>bold</font_weight>
+            <is_disabled>0</is_disabled>
+            <is_visible>1</is_visible>
+            <label xml:lang="zc">最小宽度</label>
+            <label_position>top</label_position>
+            <list_no_blank>0</list_no_blank>
+            <propertytype_id type="Property">C10A64E3960644428574F2CD341E48D1</propertytype_id>
+            <sort_order>768</sort_order>
+            <tab_index>3712</tab_index>
+            <tab_stop>1</tab_stop>
+            <x>10</x>
+            <y>245</y>
+            <name>hl_min_width</name>
+          </Item>
+          <Item type="Field" id="B7B36F34D284405FB3DA04FD8C6BD96A" action="add">
+            <border_width>0</border_width>
+            <display_length>64</display_length>
+            <display_length_unit>px</display_length_unit>
+            <field_type>text</field_type>
+            <font_color>#333333</font_color>
+            <font_family>arial, helvetica, sans-serif</font_family>
+            <font_size>8pt</font_size>
+            <font_weight>bold</font_weight>
+            <is_disabled>0</is_disabled>
+            <is_visible>1</is_visible>
+            <label xml:lang="zc">名称</label>
+            <label_position>top</label_position>
+            <list_no_blank>0</list_no_blank>
+            <propertytype_id type="Property">2AB59ADBC0E8459E87977DE0B432E17C</propertytype_id>
+            <sort_order>128</sort_order>
+            <tab_index>3072</tab_index>
+            <tab_stop>1</tab_stop>
+            <x>10</x>
+            <y>10</y>
+            <name>hl_name</name>
+          </Item>
+          <Item type="Field" id="CBB49B74DBBC45AEB3DBCDAD5B910551" action="add">
+            <border_width>0</border_width>
+            <display_length>44</display_length>
+            <display_length_unit>px</display_length_unit>
+            <field_type>text</field_type>
+            <font_color>#333333</font_color>
+            <font_family>arial, helvetica, sans-serif</font_family>
+            <font_size>8pt</font_size>
+            <font_weight>bold</font_weight>
+            <is_disabled>0</is_disabled>
+            <is_visible>1</is_visible>
+            <label xml:lang="zc">序号</label>
+            <label_position>top</label_position>
+            <list_no_blank>0</list_no_blank>
+            <propertytype_id type="Property">F76924EEB98A41B780837C3ABF4C6734</propertytype_id>
+            <sort_order>512</sort_order>
+            <tab_index>3456</tab_index>
+            <tab_stop>1</tab_stop>
+            <x>10</x>
+            <y>165</y>
+            <name>hl_sequence</name>
+          </Item>
+          <Item type="Field" id="9912A85EF79D4194B0B1459F34BB9E01" action="add">
+            <border_width>0</border_width>
+            <display_length_unit>px</display_length_unit>
+            <field_type>dropdown</field_type>
+            <font_color>#333333</font_color>
+            <font_family>arial, helvetica, sans-serif</font_family>
+            <font_size>8pt</font_size>
+            <font_weight>bold</font_weight>
+            <is_disabled>0</is_disabled>
+            <is_visible>1</is_visible>
+            <label xml:lang="zc">类型</label>
+            <label_position>top</label_position>
+            <list_no_blank>0</list_no_blank>
+            <propertytype_id type="Property">189E3CA621C24D7EBB840C2AE8F01C5E</propertytype_id>
+            <sort_order>256</sort_order>
+            <tab_index>3200</tab_index>
+            <tab_stop>1</tab_stop>
+            <x>10</x>
+            <y>50</y>
+            <name>hl_type</name>
+          </Item>
+          <Item type="Field" id="0246C40D3D4E4E61961B9C167B84ECC9" action="add">
+            <border_width>0</border_width>
+            <display_length_unit>px</display_length_unit>
+            <field_type>textarea</field_type>
+            <font_color>#333333</font_color>
+            <font_family>arial, helvetica, sans-serif</font_family>
+            <font_size>8pt</font_size>
+            <font_weight>bold</font_weight>
+            <is_disabled>0</is_disabled>
+            <is_visible>1</is_visible>
+            <label xml:lang="zc">URL</label>
+            <label_position>top</label_position>
+            <list_no_blank>0</list_no_blank>
+            <propertytype_id type="Property">04CAC733333C416AB8B2E451EAB244A9</propertytype_id>
+            <sort_order>384</sort_order>
+            <tab_index>3328</tab_index>
+            <tab_stop>1</tab_stop>
+            <textarea_cols>350</textarea_cols>
+            <textarea_rows>50</textarea_rows>
+            <x>10</x>
+            <y>90</y>
+            <name>hl_url</name>
+          </Item>
+        </Relationships>
+      </Item>
+    </Relationships>
+  </Item>
+</AML>

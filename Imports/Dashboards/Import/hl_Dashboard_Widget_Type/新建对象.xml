@@ -1,0 +1,21 @@
+﻿<AML>
+  <Item type="hl_Dashboard_Widget_Type" id="DE2CBD05E11A41CAA726DDEB392DD69E" action="add">
+    <hl_default_height>3</hl_default_height>
+    <hl_default_width>3</hl_default_width>
+    <hl_icon>../images/CreateItem.svg</hl_icon>
+    <hl_min_height>3</hl_min_height>
+    <hl_min_width>3</hl_min_width>
+    <hl_sequence>10</hl_sequence>
+    <hl_type>html</hl_type>
+    <hl_url>./demos/new-item.html</hl_url>
+    <hl_name>新建对象</hl_name>
+    <Relationships>
+      <Item type="hl_Widget_Type_Property" id="11D1F8BD2CCE4D1D95D76D0FEC815D7B" action="add">
+        <hl_label xml:lang="zc">对象类</hl_label>
+        <hl_required>0</hl_required>
+        <related_id type="Property">7E94F5C0EAF84FA69BCD21685004A750</related_id>
+        <sort_order>100</sort_order>
+      </Item>
+    </Relationships>
+  </Item>
+</AML>

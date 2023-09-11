@@ -1,0 +1,14 @@
+﻿<AML>
+  <Item type="Form" id="84CEA9A5560C486BABDE91B02B061525" action="add">
+    <height>234</height>
+    <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+    <width>699</width>
+    <name>hl_Dashboard_Widget</name>
+    <Relationships>
+      <Item type="Body" id="B8B677ACB4564A8394E40DC115823EA1" action="add">
+        <bg_color>#FFFFFF</bg_color>
+        <sort_order>128</sort_order>
+      </Item>
+    </Relationships>
+  </Item>
+</AML>

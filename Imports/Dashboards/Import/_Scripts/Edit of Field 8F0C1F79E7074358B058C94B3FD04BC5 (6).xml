@@ -1,0 +1,10 @@
+﻿<AML>
+  <Item type="Field" id="8F0C1F79E7074358B058C94B3FD04BC5" action="edit">
+    <propertytype_id>
+      <Item type="Property" action="get" select="id">
+        <name>created_by_id</name>
+        <source_id>291CAEFE2D9E4C1B85D610EFBF54C83D</source_id>
+      </Item>
+    </propertytype_id>
+  </Item>
+</AML>

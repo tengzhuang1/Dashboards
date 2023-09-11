@@ -1,0 +1,9 @@
+﻿<AML>
+ <Item type="CommandBarMenuButton" id="16F2C40937044D71AE2CA38FC1F7C660" action="add">
+  <additional_data>{"itemTypeId":"ADD7FEA245C040B8AED79F04BBF84CEA"}</additional_data>
+  <image>../images/Color.svg</image>
+  <label xml:lang="zc">组件类型</label>
+  <parent_menu keyed_name="com.aras.innovator.cui_default.toc_C016FEFA14424AAFB137437EF4A73586" type="CommandBarMenu">C016FEFA14424AAFB137437EF4A73586</parent_menu>
+  <name>com.aras.innovator.cui_default.toc_hl_Dashboard_Widget_Type_16F2C40937044D71AE2CA38FC1F7C660</name>
+ </Item>
+</AML>

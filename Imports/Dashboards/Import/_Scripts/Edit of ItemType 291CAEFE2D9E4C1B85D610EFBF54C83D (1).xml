@@ -1,0 +1,44 @@
+﻿<AML>
+  <Item type="ItemType" id="291CAEFE2D9E4C1B85D610EFBF54C83D" action="edit">
+    <Relationships>
+      <Item type="Property" id="FF86DB840F87400CABF8331F7EFF772D" action="add">
+        <column_alignment>left</column_alignment>
+        <data_type>string</data_type>
+        <is_federated>0</is_federated>
+        <is_hidden>0</is_hidden>
+        <is_hidden2>0</is_hidden2>
+        <is_indexed>0</is_indexed>
+        <is_keyed>1</is_keyed>
+        <is_multi_valued>0</is_multi_valued>
+        <is_required>1</is_required>
+        <keyed_name_order>1</keyed_name_order>
+        <label xml:lang="zc">名称</label>
+        <range_inclusive>0</range_inclusive>
+        <readonly>0</readonly>
+        <sort_order>3072</sort_order>
+        <stored_length>64</stored_length>
+        <track_history>0</track_history>
+        <name>hl_name</name>
+      </Item>
+      <Item type="Property" action="edit" where="source_id='291CAEFE2D9E4C1B85D610EFBF54C83D' and name='created_by_id'">
+        <column_alignment>left</column_alignment>
+        <data_source type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+        <data_type>item</data_type>
+        <is_federated>0</is_federated>
+        <is_hidden>0</is_hidden>
+        <is_hidden2>0</is_hidden2>
+        <is_indexed>0</is_indexed>
+        <is_keyed>0</is_keyed>
+        <is_multi_valued>0</is_multi_valued>
+        <is_required>1</is_required>
+        <item_behavior>float</item_behavior>
+        <label xml:lang="zc">创建人</label>
+        <range_inclusive>0</range_inclusive>
+        <readonly>1</readonly>
+        <sort_order>640</sort_order>
+        <track_history>0</track_history>
+        <name>created_by_id</name>
+      </Item>
+    </Relationships>
+  </Item>
+</AML>

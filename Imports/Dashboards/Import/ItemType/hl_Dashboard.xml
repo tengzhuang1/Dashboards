@@ -1,0 +1,75 @@
+﻿<AML>
+  <Item type="ItemType" id="291CAEFE2D9E4C1B85D610EFBF54C83D" action="add">
+    <allow_private_permission>1</allow_private_permission>
+    <auto_search>0</auto_search>
+    <enforce_discovery>1</enforce_discovery>
+    <hide_where_used>0</hide_where_used>
+    <implementation_type>table</implementation_type>
+    <instance_data>HL_DASHBOARD</instance_data>
+    <is_dependent>0</is_dependent>
+    <is_relationship>0</is_relationship>
+    <is_versionable>0</is_versionable>
+    <label xml:lang="zc">看板</label>
+    <label_plural xml:lang="zc">看板</label_plural>
+    <large_icon>../images/Dashboard_2.svg</large_icon>
+    <open_icon>../images/Dashboard_2.svg</open_icon>
+    <revisions type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+    <show_parameters_tab>1</show_parameters_tab>
+    <structure_view>tabs on</structure_view>
+    <unlock_on_logout>0</unlock_on_logout>
+    <use_src_access>0</use_src_access>
+    <name>hl_Dashboard</name>
+    <Relationships>
+      <Item type="Allowed Permission" id="61E78415E8FD4E84B1A5C271A6801C83" action="add">
+        <is_default>1</is_default>
+        <related_id type="Permission">8A881AE2FBAA4A9DB7C2937D45CF9F5A</related_id>
+        <sort_order>128</sort_order>
+      </Item>
+      <Item type="Can Add" id="66FB3766A3114358A4C9763E1074C733" action="add">
+        <can_add>1</can_add>
+        <related_id type="Identity">
+          <Item type="Identity" action="get" select="id">
+            <name>World</name>
+          </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+      </Item>
+      <Item type="Property" id="C97CE242E2BA42FC935C15E502C0978B" action="add">
+        <column_alignment>left</column_alignment>
+        <data_type>text</data_type>
+        <is_federated>0</is_federated>
+        <is_hidden>0</is_hidden>
+        <is_hidden2>0</is_hidden2>
+        <is_indexed>0</is_indexed>
+        <is_keyed>0</is_keyed>
+        <is_multi_valued>0</is_multi_valued>
+        <is_required>0</is_required>
+        <label xml:lang="zc">描述</label>
+        <range_inclusive>0</range_inclusive>
+        <readonly>0</readonly>
+        <sort_order>3200</sort_order>
+        <track_history>0</track_history>
+        <name>hl_description</name>
+      </Item>
+      <Item type="View" id="B5E32AB5F21E40ACA515EF7E5165F780" action="add">
+        <client>js</client>
+        <related_id type="Form">
+          <Item type="Form" id="2E53C87B48E5424196966CBAF6B0C1C9" action="add">
+            <height>234</height>
+            <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+            <width>699</width>
+            <name>hl_Dashboard</name>
+          </Item>
+        </related_id>
+        <role type="Identity">
+          <Item type="Identity" action="get" select="id">
+            <name>World</name>
+          </Item>
+        </role>
+        <show_ssvc>0</show_ssvc>
+        <sort_order>128</sort_order>
+        <type>default</type>
+      </Item>
+    </Relationships>
+  </Item>
+</AML>

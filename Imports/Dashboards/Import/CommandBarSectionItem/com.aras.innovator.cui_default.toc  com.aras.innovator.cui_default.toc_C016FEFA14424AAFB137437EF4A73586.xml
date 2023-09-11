@@ -1,0 +1,9 @@
+﻿<AML>
+  <Item type="CommandBarSectionItem" id="9A445C7993904489B011257956972AB9" action="add">
+    <action>Add</action>
+    <related_id type="CommandBarMenu">C016FEFA14424AAFB137437EF4A73586</related_id>
+    <role type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</role>
+    <sort_order>5120</sort_order>
+    <source_id type="CommandBarSection">0AEAF671F8E548C494CCEC8E13F99562</source_id>
+  </Item>
+</AML>

@@ -1,0 +1,46 @@
+﻿<AML>
+  <Item type="Permission" id="5A8E8A68ADBE4C64AADB9848D4D2B32B" action="add">
+    <is_private>0</is_private>
+    <name>hl_Dashboard_Widget_Type</name>
+    <Relationships>
+      <Item type="Access" id="22F46B9C74A049F099D5322316C7C457" action="add">
+        <can_change_access>0</can_change_access>
+        <can_delete>1</can_delete>
+        <can_discover>1</can_discover>
+        <can_get>1</can_get>
+        <can_update>1</can_update>
+        <related_id type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+        <show_permissions_warning>0</show_permissions_warning>
+        <sort_order>128</sort_order>
+      </Item>
+      <Item type="Access" id="7E4EBE6C045D41EA96C89EC0555B9055" action="add">
+        <can_change_access>0</can_change_access>
+        <can_delete>1</can_delete>
+        <can_discover>1</can_discover>
+        <can_get>1</can_get>
+        <can_update>1</can_update>
+        <related_id type="Identity">
+          <Item type="Identity" action="get" select="id">
+            <name>Creator</name>
+          </Item>
+        </related_id>
+        <show_permissions_warning>0</show_permissions_warning>
+        <sort_order>256</sort_order>
+      </Item>
+      <Item type="Access" id="990EB2A710E0446D9A4536F31CD1DA6B" action="add">
+        <can_change_access>0</can_change_access>
+        <can_delete>0</can_delete>
+        <can_discover>1</can_discover>
+        <can_get>1</can_get>
+        <can_update>0</can_update>
+        <related_id type="Identity">
+          <Item type="Identity" action="get" select="id">
+            <name>World</name>
+          </Item>
+        </related_id>
+        <show_permissions_warning>0</show_permissions_warning>
+        <sort_order>384</sort_order>
+      </Item>
+    </Relationships>
+  </Item>
+</AML>

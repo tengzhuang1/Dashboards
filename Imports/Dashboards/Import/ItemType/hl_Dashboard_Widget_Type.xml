@@ -1,0 +1,229 @@
+﻿<AML>
+  <Item type="ItemType" id="ADD7FEA245C040B8AED79F04BBF84CEA" action="add">
+    <allow_private_permission>1</allow_private_permission>
+    <auto_search>0</auto_search>
+    <enforce_discovery>1</enforce_discovery>
+    <hide_where_used>0</hide_where_used>
+    <implementation_type>table</implementation_type>
+    <instance_data>HL_DASHBOARD_WIDGET_TYPE</instance_data>
+    <is_dependent>0</is_dependent>
+    <is_relationship>0</is_relationship>
+    <is_versionable>0</is_versionable>
+    <label xml:lang="zc">组件类型</label>
+    <label_plural xml:lang="zc">组件类型</label_plural>
+    <large_icon>../images/Color.svg</large_icon>
+    <open_icon>../images/Color.svg</open_icon>
+    <revisions type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+    <show_parameters_tab>1</show_parameters_tab>
+    <structure_view>tabs on</structure_view>
+    <unlock_on_logout>0</unlock_on_logout>
+    <use_src_access>0</use_src_access>
+    <name>hl_Dashboard_Widget_Type</name>
+    <Relationships>
+      <Item type="Allowed Permission" id="EDADD1D71645429A92914041A6589D4C" action="add">
+        <is_default>1</is_default>
+        <related_id type="Permission">5A8E8A68ADBE4C64AADB9848D4D2B32B</related_id>
+        <sort_order>128</sort_order>
+      </Item>
+      <Item type="Can Add" id="59BFF98AD62C41AD9BF095361964E1F3" action="add">
+        <can_add>1</can_add>
+        <related_id type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+        <sort_order>128</sort_order>
+      </Item>
+      <Item type="Property" id="EA4DD3295EBF4A83AC0E37F6C8357DC8" action="add">
+        <column_alignment>left</column_alignment>
+        <data_type>integer</data_type>
+        <is_federated>0</is_federated>
+        <is_hidden>0</is_hidden>
+        <is_hidden2>0</is_hidden2>
+        <is_indexed>0</is_indexed>
+        <is_keyed>0</is_keyed>
+        <is_multi_valued>0</is_multi_valued>
+        <is_required>0</is_required>
+        <label xml:lang="zc">默认高度</label>
+        <range_inclusive>0</range_inclusive>
+        <readonly>0</readonly>
+        <sort_order>4096</sort_order>
+        <track_history>0</track_history>
+        <name>hl_default_height</name>
+      </Item>
+      <Item type="Property" id="EB31213F54FC492A82C7C9E5860216DE" action="add">
+        <column_alignment>left</column_alignment>
+        <data_type>integer</data_type>
+        <is_federated>0</is_federated>
+        <is_hidden>0</is_hidden>
+        <is_hidden2>0</is_hidden2>
+        <is_indexed>0</is_indexed>
+        <is_keyed>0</is_keyed>
+        <is_multi_valued>0</is_multi_valued>
+        <is_required>0</is_required>
+        <label xml:lang="zc">默认宽度</label>
+        <range_inclusive>0</range_inclusive>
+        <readonly>0</readonly>
+        <sort_order>3968</sort_order>
+        <track_history>0</track_history>
+        <name>hl_default_width</name>
+      </Item>
+      <Item type="Property" id="05E7C46713BE48D6B99AFB52462FDC03" action="add">
+        <column_alignment>left</column_alignment>
+        <data_type>text</data_type>
+        <is_federated>0</is_federated>
+        <is_hidden>0</is_hidden>
+        <is_hidden2>0</is_hidden2>
+        <is_indexed>0</is_indexed>
+        <is_keyed>0</is_keyed>
+        <is_multi_valued>0</is_multi_valued>
+        <is_required>0</is_required>
+        <label xml:lang="zc">描述</label>
+        <range_inclusive>0</range_inclusive>
+        <readonly>0</readonly>
+        <sort_order>4224</sort_order>
+        <track_history>0</track_history>
+        <name>hl_description</name>
+      </Item>
+      <Item type="Property" id="D7C1F87C3D894A9DA99ED74DB8366251" action="add">
+        <column_alignment>left</column_alignment>
+        <data_type>image</data_type>
+        <is_federated>0</is_federated>
+        <is_hidden>0</is_hidden>
+        <is_hidden2>0</is_hidden2>
+        <is_indexed>0</is_indexed>
+        <is_keyed>0</is_keyed>
+        <is_multi_valued>0</is_multi_valued>
+        <is_required>0</is_required>
+        <label xml:lang="zc">图标</label>
+        <range_inclusive>0</range_inclusive>
+        <readonly>0</readonly>
+        <sort_order>3584</sort_order>
+        <track_history>0</track_history>
+        <name>hl_icon</name>
+      </Item>
+      <Item type="Property" id="17A6DBDF2EB3492880C4A5AA29544E2D" action="add">
+        <column_alignment>left</column_alignment>
+        <data_type>integer</data_type>
+        <is_federated>0</is_federated>
+        <is_hidden>0</is_hidden>
+        <is_hidden2>0</is_hidden2>
+        <is_indexed>0</is_indexed>
+        <is_keyed>0</is_keyed>
+        <is_multi_valued>0</is_multi_valued>
+        <is_required>0</is_required>
+        <label xml:lang="zc">最小高度</label>
+        <range_inclusive>0</range_inclusive>
+        <readonly>0</readonly>
+        <sort_order>3840</sort_order>
+        <track_history>0</track_history>
+        <name>hl_min_height</name>
+      </Item>
+      <Item type="Property" id="C10A64E3960644428574F2CD341E48D1" action="add">
+        <column_alignment>left</column_alignment>
+        <data_type>integer</data_type>
+        <is_federated>0</is_federated>
+        <is_hidden>0</is_hidden>
+        <is_hidden2>0</is_hidden2>
+        <is_indexed>0</is_indexed>
+        <is_keyed>0</is_keyed>
+        <is_multi_valued>0</is_multi_valued>
+        <is_required>0</is_required>
+        <label xml:lang="zc">最小宽度</label>
+        <range_inclusive>0</range_inclusive>
+        <readonly>0</readonly>
+        <sort_order>3712</sort_order>
+        <track_history>0</track_history>
+        <name>hl_min_width</name>
+      </Item>
+      <Item type="Property" id="2AB59ADBC0E8459E87977DE0B432E17C" action="add">
+        <column_alignment>left</column_alignment>
+        <data_type>string</data_type>
+        <is_federated>0</is_federated>
+        <is_hidden>0</is_hidden>
+        <is_hidden2>0</is_hidden2>
+        <is_indexed>0</is_indexed>
+        <is_keyed>0</is_keyed>
+        <is_multi_valued>0</is_multi_valued>
+        <is_required>0</is_required>
+        <keyed_name_order>1</keyed_name_order>
+        <label xml:lang="zc">名称</label>
+        <range_inclusive>0</range_inclusive>
+        <readonly>0</readonly>
+        <sort_order>3072</sort_order>
+        <stored_length>64</stored_length>
+        <track_history>0</track_history>
+        <name>hl_name</name>
+      </Item>
+      <Item type="Property" id="F76924EEB98A41B780837C3ABF4C6734" action="add">
+        <column_alignment>left</column_alignment>
+        <data_type>integer</data_type>
+        <is_federated>0</is_federated>
+        <is_hidden>0</is_hidden>
+        <is_hidden2>0</is_hidden2>
+        <is_indexed>0</is_indexed>
+        <is_keyed>0</is_keyed>
+        <is_multi_valued>0</is_multi_valued>
+        <is_required>0</is_required>
+        <label xml:lang="zc">序号</label>
+        <range_inclusive>0</range_inclusive>
+        <readonly>0</readonly>
+        <sort_order>3456</sort_order>
+        <track_history>0</track_history>
+        <name>hl_sequence</name>
+      </Item>
+      <Item type="Property" id="189E3CA621C24D7EBB840C2AE8F01C5E" action="add">
+        <column_alignment>left</column_alignment>
+        <data_source>48D867334FC3497AA0B3DDBDF06F7387</data_source>
+        <data_type>list</data_type>
+        <is_federated>0</is_federated>
+        <is_hidden>0</is_hidden>
+        <is_hidden2>0</is_hidden2>
+        <is_indexed>0</is_indexed>
+        <is_keyed>0</is_keyed>
+        <is_multi_valued>0</is_multi_valued>
+        <is_required>0</is_required>
+        <label xml:lang="zc">类型</label>
+        <range_inclusive>0</range_inclusive>
+        <readonly>0</readonly>
+        <sort_order>3200</sort_order>
+        <stored_length>256</stored_length>
+        <track_history>0</track_history>
+        <name>hl_type</name>
+      </Item>
+      <Item type="Property" id="04CAC733333C416AB8B2E451EAB244A9" action="add">
+        <column_alignment>left</column_alignment>
+        <data_type>string</data_type>
+        <is_federated>0</is_federated>
+        <is_hidden>0</is_hidden>
+        <is_hidden2>0</is_hidden2>
+        <is_indexed>0</is_indexed>
+        <is_keyed>0</is_keyed>
+        <is_multi_valued>0</is_multi_valued>
+        <is_required>0</is_required>
+        <label xml:lang="zc">URL</label>
+        <range_inclusive>0</range_inclusive>
+        <readonly>0</readonly>
+        <sort_order>3328</sort_order>
+        <stored_length>512</stored_length>
+        <track_history>0</track_history>
+        <name>hl_url</name>
+      </Item>
+      <Item type="View" id="CA4B147B58FB4019A432AD71585F1174" action="add">
+        <client>js</client>
+        <related_id type="Form">
+          <Item type="Form" id="B169305AD3BA481C955024F64812269D" action="add">
+            <height>234</height>
+            <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+            <width>699</width>
+            <name>hl_Dashboard_Widget_Type</name>
+          </Item>
+        </related_id>
+        <role type="Identity">
+          <Item type="Identity" action="get" select="id">
+            <name>World</name>
+          </Item>
+        </role>
+        <show_ssvc>0</show_ssvc>
+        <sort_order>128</sort_order>
+        <type>default</type>
+      </Item>
+    </Relationships>
+  </Item>
+</AML>

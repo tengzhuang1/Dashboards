@@ -1,0 +1,13 @@
+﻿<AML>
+  <Item type="hl_Dashboard_Widget_Type" id="FB024C621A334A1B924F4B9758B2C41B" action="add">
+    <hl_default_height>7</hl_default_height>
+    <hl_default_width>8</hl_default_width>
+    <hl_icon>../images/Align.svg</hl_icon>
+    <hl_min_height>6</hl_min_height>
+    <hl_min_width>6</hl_min_width>
+    <hl_sequence>20</hl_sequence>
+    <hl_type>html</hl_type>
+    <hl_url>./demos/line-sections.html</hl_url>
+    <hl_name>图表</hl_name>
+  </Item>
+</AML>

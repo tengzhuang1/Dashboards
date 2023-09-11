@@ -1,0 +1,3 @@
+﻿<AML>
+  <Item type="Form" action="delete" where="[Form].[name]='hl_Dashboard_Member'" />
+</AML>

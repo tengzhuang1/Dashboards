@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --tile-button-padding:20px;
+            --tile-image-size:4rem;
+        }
+
+        body {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh);
+            margin: 0;
+        }
+
+        .new-item{
+            width: calc(var(--tile-image-size) + var(--tile-button-padding) * 2);
+        }
+
+        .new-button{
+            background-color: #fff;
+            cursor:pointer;
+            box-shadow:0 1px 3px rgba(0,0,0,.16), 0 1px 2px rgba(0,0,0,.24);
+            border: 1px solid transparent;
+            border-radius:8px;
+            padding: calc(var(--tile-button-padding) - 1px);
+            font: 12px Arial, Helvetica, sans-serif;
+        }
+
+        .new-button img{
+            height: var(--tile-image-size);
+            width: var(--tile-image-size);
+            display: block
+        }
+
+        .new-button:hover{
+            background-color: #f7f7f7;
+        }
+
+        .new-button-label{
+            margin-top: 10px;
+            font: 500 1rem/1.2 Roboto,'Noto Sans JP',Arial,sans-serif;
+            color: #333;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            text-align: center;
+            user-select: none;
+            display: block;
+        }
+    </style>
+    <script>
+        
+        onload=async ()=>{
+            const urlParams= new URLSearchParams(location.search);
+            const itemtypeId=urlParams.get('hl_itemtype');
+            if(!itemtypeId) return;
+
+            const itemtype=await top.aras.MetadataCacheJson.GetItemType(itemtypeId,'id');
+            const newButton=document.querySelector('.new-button');
+            const newButtonImg=newButton.querySelector('img');
+            const newButtonLabel=document.querySelector('.new-button-label');
+            newButton.addEventListener('click',()=>{
+                top.aras.uiNewItemEx(itemtype.name);
+            });
+
+            newButtonImg.src=`../../${itemtype.large_icon}`;
+            newButtonLabel.textContent=itemtype.label;
+        }
+    </script>
+</head>
+<body>
+    <div class="new-item">
+        <button class="new-button">
+            <img src="http://localhost/aras2023/Client/images/New.svg" draggable="false" />
+        </button>
+        <div class="new-button-label">
+            对象
+        </div>
+    </div>
+</body>
+</html>

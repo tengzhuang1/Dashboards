@@ -1,0 +1,14 @@
+﻿<AML>
+  <Item type="List" id="48D867334FC3497AA0B3DDBDF06F7387" action="add">
+    <description>组件类型</description>
+    <name>hl_Widget_Type</name>
+    <Relationships>
+      <Item type="Value" id="0F64C64896574A9B9C0C3A699AAFFAEA" action="add">
+        <inactive>0</inactive>
+        <label xml:lang="zc">HTML</label>
+        <sort_order>128</sort_order>
+        <value>html</value>
+      </Item>
+    </Relationships>
+  </Item>
+</AML>

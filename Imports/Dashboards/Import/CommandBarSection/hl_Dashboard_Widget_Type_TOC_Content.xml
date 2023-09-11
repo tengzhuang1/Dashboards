@@ -1,0 +1,16 @@
+﻿<AML>
+ <Item type="CommandBarSection" id="F2FEC7C1D9E940DC841E7293319FF23A" action="add">
+  <classification>Data Model</classification>
+  <location keyed_name="TOC" type="cui_Location">02A5F61EF1C94C41834486FA8D76B4E1</location>
+  <name>hl_Dashboard_Widget_Type_TOC_Content</name>
+  <Relationships>
+   <Item type="CommandBarSectionItem" id="8756C26C971C4A01821B3DB3923A3EE3" action="add">
+    <action>Add</action>
+    <related_id keyed_name="com.aras.innovator.cui_default.toc_hl_Dashboard_Widget_Type_16F2C40937044D71AE2CA38FC1F7C660" type="CommandBarItem">16F2C40937044D71AE2CA38FC1F7C660</related_id>
+    <role keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</role>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="hl_Dashboard_Widget_Type_TOC_Content" type="CommandBarSection">F2FEC7C1D9E940DC841E7293319FF23A</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>
